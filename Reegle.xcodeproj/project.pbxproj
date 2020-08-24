@@ -3,27 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B94BD6EB24DFD9A2009B792A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD6EA24DFD9A2009B792A /* AppDelegate.swift */; };
 		B94BD6ED24DFD9A2009B792A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD6EC24DFD9A2009B792A /* SceneDelegate.swift */; };
-		B94BD6EF24DFD9A2009B792A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD6EE24DFD9A2009B792A /* ContentView.swift */; };
 		B94BD6F124DFD9A3009B792A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BD6F024DFD9A3009B792A /* Assets.xcassets */; };
 		B94BD6F424DFD9A3009B792A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BD6F324DFD9A3009B792A /* Preview Assets.xcassets */; };
 		B94BD6F724DFD9A3009B792A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94BD6F524DFD9A3009B792A /* LaunchScreen.storyboard */; };
+		B94BD6FF24DFE12E009B792A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD6FE24DFE12E009B792A /* SearchView.swift */; };
+		B94BD70324DFE16E009B792A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD70224DFE16E009B792A /* SettingsView.swift */; };
+		B94BD70724DFEF52009B792A /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD70624DFEF52009B792A /* SearchModel.swift */; };
+		B94BD70924E01348009B792A /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD70824E01348009B792A /* SearchTextField.swift */; };
+		B94BD70B24E017B9009B792A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD70A24E017B9009B792A /* ResultView.swift */; };
+		B97D65B124E450910041C7E2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97D65B024E450910041C7E2 /* Settings.swift */; };
+		B97D65B324E463180041C7E2 /* ResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97D65B224E463180041C7E2 /* ResultItem.swift */; };
+		B9C31F6324E33AFF00F87096 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = B9C31F6224E33AFF00F87096 /* SwiftSoup */; };
+		B9D0EE7C24E4A559002A8C26 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D0EE7B24E4A559002A8C26 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B94BD6E724DFD9A2009B792A /* Reegle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reegle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BD6EA24DFD9A2009B792A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B94BD6EC24DFD9A2009B792A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B94BD6EE24DFD9A2009B792A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B94BD6F024DFD9A3009B792A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B94BD6F324DFD9A3009B792A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B94BD6F624DFD9A3009B792A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B94BD6F824DFD9A3009B792A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94BD6FE24DFE12E009B792A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B94BD70224DFE16E009B792A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B94BD70624DFEF52009B792A /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		B94BD70824E01348009B792A /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		B94BD70A24E017B9009B792A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		B97D65B024E450910041C7E2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B97D65B224E463180041C7E2 /* ResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultItem.swift; sourceTree = "<group>"; };
+		B9D0EE7B24E4A559002A8C26 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C31F6324E33AFF00F87096 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +74,14 @@
 			children = (
 				B94BD6EA24DFD9A2009B792A /* AppDelegate.swift */,
 				B94BD6EC24DFD9A2009B792A /* SceneDelegate.swift */,
-				B94BD6EE24DFD9A2009B792A /* ContentView.swift */,
+				B94BD6FE24DFE12E009B792A /* SearchView.swift */,
+				B94BD70624DFEF52009B792A /* SearchModel.swift */,
+				B94BD70824E01348009B792A /* SearchTextField.swift */,
+				B94BD70224DFE16E009B792A /* SettingsView.swift */,
+				B97D65B024E450910041C7E2 /* Settings.swift */,
+				B94BD70A24E017B9009B792A /* ResultView.swift */,
+				B97D65B224E463180041C7E2 /* ResultItem.swift */,
+				B9D0EE7B24E4A559002A8C26 /* KeyboardObserver.swift */,
 				B94BD6F024DFD9A3009B792A /* Assets.xcassets */,
 				B94BD6F524DFD9A3009B792A /* LaunchScreen.storyboard */,
 				B94BD6F824DFD9A3009B792A /* Info.plist */,
@@ -91,6 +114,9 @@
 			dependencies = (
 			);
 			name = Reegle;
+			packageProductDependencies = (
+				B9C31F6224E33AFF00F87096 /* SwiftSoup */,
+			);
 			productName = Reegle;
 			productReference = B94BD6E724DFD9A2009B792A /* Reegle.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +145,9 @@
 				Base,
 			);
 			mainGroup = B94BD6DE24DFD9A2009B792A;
+			packageReferences = (
+				B9C31F6124E33AFF00F87096 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = B94BD6E824DFD9A2009B792A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +175,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D0EE7C24E4A559002A8C26 /* KeyboardObserver.swift in Sources */,
+				B94BD6FF24DFE12E009B792A /* SearchView.swift in Sources */,
 				B94BD6EB24DFD9A2009B792A /* AppDelegate.swift in Sources */,
+				B94BD70724DFEF52009B792A /* SearchModel.swift in Sources */,
+				B94BD70324DFE16E009B792A /* SettingsView.swift in Sources */,
+				B97D65B324E463180041C7E2 /* ResultItem.swift in Sources */,
+				B97D65B124E450910041C7E2 /* Settings.swift in Sources */,
 				B94BD6ED24DFD9A2009B792A /* SceneDelegate.swift in Sources */,
-				B94BD6EF24DFD9A2009B792A /* ContentView.swift in Sources */,
+				B94BD70B24E017B9009B792A /* ResultView.swift in Sources */,
+				B94BD70924E01348009B792A /* SearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,16 +322,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Reegle/Preview Content\"";
+				DEVELOPMENT_TEAM = M54C79RXUG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Reegle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbastie.Reegle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Reegle;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,16 +343,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Reegle/Preview Content\"";
+				DEVELOPMENT_TEAM = M54C79RXUG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Reegle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbastie.Reegle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Reegle;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -340,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9C31F6124E33AFF00F87096 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9C31F6224E33AFF00F87096 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9C31F6124E33AFF00F87096 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B94BD6DF24DFD9A2009B792A /* Project object */;
 }
